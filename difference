@@ -2,10 +2,10 @@
 using namespace std;
 int main()
 {
-   int a,b;
+   int a,b,c;
    cout<<"enter two numbers";
    cin>>a>>b;
-   a-=b;
-   cout<<"difference="<<a;
+   c=a-b;
+   cout<<"difference="<<c;
    return 0;
 }
